@@ -96,42 +96,47 @@ header h1 {
   background-color: #2e7d32;
 }
 
-/* ✅ تحسين مظهر الموبايل */
-@media (max-width: 768px) {
+/@media (max-width: 768px) {
+
   body {
     padding: 10px;
+    font-size: 16px; /* 👈 تكبير الخط العام */
   }
 
   header h1 {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .subtitle {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .features-title h2 {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .features-title p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .box {
     width: 100%;
-    font-size: 14px;
-    padding: 15px;
-    margin-bottom: 15px;
+    font-size: 16px; /* 👈 تكبير الخط داخل البوكس */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .box h3 {
+    font-size: 20px; /* 👈 تكبير عنوان كل بوكس */
   }
 
   .download-btn {
-    width: 90%;
-    font-size: 16px;
-    padding: 12px 10px;
+    width: 95%;
+    font-size: 18px; /* 👈 تكبير الزر */
+    padding: 14px 12px;
   }
 
   .logo {
-    width: 90px;
+    width: 100px;
   }
 }
