@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0fdf4;
+  color: #1b5e20;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #c8e6c9;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.features-title {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.features-title h2 {
+  font-size: 32px;
+  color: #1b5e20;
+  margin-bottom: 10px;
+}
+
+.features-title p {
+  font-size: 16px;
+  color: #388e3c;
+}
+
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 10px 0 5px;
+  color: #1b5e20;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #388e3c;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 48%;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+
+.box1 { background-image: url('waste.png'); }
+.box2 { background-image: url('tree.png'); }
+.box3 { background-image: url('energy.png'); }
+.box4 { background-image: url('tip.png'); }
+.box5 { background-image: url('rewards.png'); }
+
+.download-btn {
+  display: inline-block;
+  margin-top: 100px;
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #43a047;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #2e7d32;
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}
