@@ -46,7 +46,7 @@ header h1 {
   color: #388e3c;
 }
 
-/* ✅ تعديل لتوسيط البوكسات */
+
 .row {
   display: flex;
   justify-content: center;
@@ -96,43 +96,51 @@ header h1 {
   background-color: #2e7d32;
 }
 
-/@media (max-width: 768px) {
+@media (max-width: 768px) {
+
+  html {
+    font-size: 18px
+  }
 
   body {
-    padding: 10px;
-    font-size: 16px; /* 👈 تكبير الخط العام */
+    padding: 16px;
   }
 
   header h1 {
-    font-size: 30px;
+    font-size: 2rem;
   }
 
   .subtitle {
-    font-size: 18px;
+    font-size: 1.2rem;
   }
 
   .features-title h2 {
-    font-size: 26px;
+    font-size: 1.6rem;
   }
 
   .features-title p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .box {
     width: 100%;
-    font-size: 16px; /* 👈 تكبير الخط داخل البوكس */
+    font-size: 1rem;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
 
   .box h3 {
-    font-size: 20px; /* 👈 تكبير عنوان كل بوكس */
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .box p {
+    font-size: 1rem;
   }
 
   .download-btn {
     width: 95%;
-    font-size: 18px; /* 👈 تكبير الزر */
+    font-size: 1.1rem;
     padding: 14px 12px;
   }
 
